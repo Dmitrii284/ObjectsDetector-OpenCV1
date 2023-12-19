@@ -1,0 +1,5 @@
+# ninja log v5
+8435	8823	1702915282838134340	ObjectsDetector	7f21755c2f02f1e0
+9	8435	1702915282450139666	CMakeFiles/ObjectsDetector.dir/main.cpp.o	7c714c465ae0f5c3
+5	8653	1702979300440185440	CMakeFiles/ObjectsDetector.dir/main.cpp.o	12e12c0ce5ec88e
+8654	8978	1702979300764183024	ObjectsDetector	7f21755c2f02f1e0
