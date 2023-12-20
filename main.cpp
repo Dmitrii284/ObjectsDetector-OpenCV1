@@ -132,11 +132,11 @@ private:
 
     void FindCars(cv::Mat& image)
     {
-        float confidence_threshold = 0.1;
+        float confidence_threshold = 0.25;
         float nms_threshold = 0.3;
 
         cv::Mat blob;
-        cv::dnn::blobFromImage(image, blob, 1 / 255.0, cv::Size(416, 416), cv::Scalar(0,0, 0),true, false);
+        cv::dnn::blobFromImage(image, blob, 1 / 255.0, cv::Size(416, 416), cv::Scalar(103.939, 116.779, 123.68),true, false);
         m_opticalModel.setInput(blob);
 
         std::vector<cv::Mat>outs;
