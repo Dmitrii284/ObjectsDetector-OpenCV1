@@ -132,8 +132,8 @@ private:
 
     void FindCars(cv::Mat& image)
     {
-        float confidence_threshold = 0.5;
-        float nms_threshold = 0.4;
+        float confidence_threshold = 0.005;
+        float nms_threshold = 2.4;
 
         cv::Mat blob;
         cv::dnn::blobFromImage(image, blob, 1 / 255.0, cv::Size(416, 416), cv::Scalar(0,0, 0),true, false);
